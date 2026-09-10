@@ -1,12 +1,12 @@
-# Peça um número N ao usuário e exiba todos os números de 1 até N informando se cada um é par ou ímpar.
+# Ask the user for a number N and display all numbers from 1 to N stating whether each is even or odd.
 
-n = int(input(f"Me informe um numero: "))
+n = int(input("Enter a number: "))
 
-par = n
-impar = n
+even = n
+odd = n
 
 for i in range(n, n + 1):
-    if n != par:
-        print(f"O número é Impar")
+    if n != even:
+        print("The number is Odd")
     else:
-        print(f"O númeoro é Par")
+        print("The number is Even")

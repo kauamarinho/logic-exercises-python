@@ -1,10 +1,9 @@
-# Contagem regressiva
+# Countdown
 
-# Peça um número inteiro positivo ao usuário e exiba uma contagem regressiva de N até 0.
+# Ask the user for a positive integer and display a countdown from N to 0.
 
 
-numero = int(input(f"Me de um Número para a contagem regressiva até o 0: " ))
+number = int(input("Give me a number for the countdown to 0: "))
 
-for numero in range(numero, 0 , - 1):
-    print(numero)
-
+for number in range(number, 0, -1):
+    print(number)

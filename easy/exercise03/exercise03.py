@@ -1,12 +1,12 @@
 
-# Peça ao usuário quantos números ele quer somar. Leia cada número e exiba a soma total no final.
+# Ask the user how many numbers they want to add. Read each number and display the total sum at the end.
 
-n = int(input("Quantos números você quer somar? "))
+n = int(input("How many numbers do you want to add? "))
 
-soma = 0
+total = 0
 
 for i in range(1, n + 1):
-    numero = float(input(f"Digite o {i}º número: "))
-    soma = soma + numero
+    number = float(input(f"Enter the {i}th number: "))
+    total = total + number
 
-print(f"\nA soma dos {n} números é: {soma}")
+print(f"\nThe sum of the {n} numbers is: {total}")

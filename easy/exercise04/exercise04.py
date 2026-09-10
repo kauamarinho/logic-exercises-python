@@ -1,13 +1,13 @@
-# Defina uma senha no código. Peça ao usuário para digitá-la.
-# Enquanto errar, continue pedindo. Exiba uma mensagem de boas-vindas ao acertar.
+# Define a password in the code. Ask the user to type it in.
+# While they get it wrong, keep asking. Display a welcome message when they get it right.
 
 
-senha = 1234
+password = 1234
 
-senha_usuario = int(input("Me informe sua senha: "))
+user_password = int(input("Please enter your password: "))
 
-while senha_usuario != senha:
-    print("Senha incorreta! Tente novamente.")
-    senha_usuario = int(input("Me informe sua senha: "))
+while user_password != password:
+    print("Incorrect password! Try again.")
+    user_password = int(input("Please enter your password: "))
 else:
-    print("Senha correta!")
+    print("Correct password!")
